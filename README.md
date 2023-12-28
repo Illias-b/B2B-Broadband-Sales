@@ -16,7 +16,8 @@ The project involved multiple stages of data processing, visualization, and anal
 
 - **Dashboard Development**:
   - Developed an interactive dashboard in Tableau to visualize broadband sales over time, by product type, sales channel, and city.
-  - The dashboard builds upon an existing report, adding a new dimension of city-wise sales data to gauge the impact of marketing efforts regionally.
+ -  The dashboard builds upon an existing report, adding a new dimension of city-wise sales data to gauge the impact of marketing efforts regionally, enhanced by a map           visualization for geographic insights and a bar graph breakdown for a comparative analysis of city-level sales.
+
 
 ## Results
 The dashboard effectively captures and presents broadband sales data, providing key insights for business decision-making. The addition of city-wise sales data allows for a more granular analysis of market penetration and campaign effectiveness.
