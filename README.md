@@ -1,4 +1,4 @@
-# B2B Broadband Sales Analysis Dashboard
+# B2B Broadband Sales Analysis
 
 ## Overview
 This repository showcases the B2B Broadband Sales Analysis Dashboard, which tracks broadband sales (5G and 4G) by week since September 2022. The dashboard provides insights split by sales channels (telesales, medium, retail) and city, aiming to assess the impact of regional marketing campaigns.
