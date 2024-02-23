@@ -1,32 +1,25 @@
-# B2B Broadband Sales Analysis
+# B2B Monthly Performance Analysis
 
 ## Overview
-This repository showcases the B2B Broadband Sales Analysis Dashboard, which tracks broadband sales (5G and 4G) by week since September 2022. The dashboard provides insights split by sales channels (telesales, medium, retail) and city, aiming to assess the impact of regional marketing campaigns.
+This repository hosts the B2B Monthly Performance Analysis Dashboards, designed to monitor and analyze business-to-business (B2B) operations. The dashboards offer a high-level overview of broad metrics and a detailed breakdown by Line of Business (LOB), focusing on Monthly Recurring Charge (MRC) and gross values to provide stakeholders with a comprehensive understanding of the B2B segment's performance.
 
 ## Goal
-The goal of the dashboard is to provide a comprehensive view of business broadband sales, highlighting trends in 5G and 4G product sales, and understanding the distribution across different sales channels and cities.
+The dashboards aim to give a segmented view of the B2B area, highlighting trends and key performance indicators. This insight is crucial for stakeholders to identify growth opportunities, monitor business health, and make informed decisions.
 
 ## Approach and Tools
-The project involved multiple stages of data processing, visualization, and analysis:
+- **Data Aggregation and Processing**: 
+  - Execution of SQL queries for data extraction and aggregation from multiple business systems.
+  - Establishment of automated data pipelines for regular data updates and transformation.
 
-- **Data Aggregation and Processing**:
-  - Utilized SQL for initial data querying and table creation in the legacy database.
-  - Employed Alteryx for transferring data to the Snowflake data warehouse, ensuring efficient data handling and preparation.
-  - Alteryx Workflow Integration: The legacy data was combined with new world data using an Alteryx workflow, scheduled for daily updates to maintain data freshness and accuracy.
-
-- **Dashboard Development**:
-  - Developed an interactive dashboard in Tableau to visualize broadband sales over time, by product type, sales channel, and city.
-  - The dashboard builds upon an existing report, adding a new dimension of city-wise sales data to gauge the impact of marketing efforts regionally, enhanced by a map           visualization for geographic insights and a bar graph breakdown for a comparative analysis of city-level sales.
+- **Dashboard Development**: 
+  - **Broad Metrics Dashboard**: Captures key performance indicators to provide a snapshot of overall business health.
+  - **Line of Business (LOB) Dashboard**: Offers an in-depth look at specific metrics such as MRC and gross values, allowing stakeholders to dive deeper into the data.
 
 ## Results
-The dashboard effectively captures and presents broadband sales data, providing key insights for business decision-making. The addition of city-wise sales data allows for a more granular analysis of market penetration and campaign effectiveness.
+The dual-layered dashboards have become an essential tool for B2B performance tracking, enabling stakeholders to quickly grasp the business trajectory and delve into detailed financial metrics for each LOB.
 
 ## Visualisation and Code Snippets
-- Tableau Dashboard Screenshot:
-  - ![Tableau Dashboard for Broadband Sales](link-to-tableau-dashboard.jpg)
-- Alteryx Workflow Screenshot:
-  - ![Alteryx Workflow for Data Processing](link-to-alteryx-workflow.jpg)
-
-(Note: Replace the image links with actual URLs to the Tableau dashboard and Alteryx workflow screenshots.)
-
-This format offers a detailed view of the project, emphasizing the role of Alteryx in the data processing stage and showcasing the final dashboard output.
+- **Broad Metrics Dashboard Screenshot**:
+  - ![Broad Metrics Dashboard](link-to-broad-metrics-dashboard.jpg)
+- **Line of Business (LOB) Detailed Analysis Dashboard Screenshot**:
+  - ![LOB Detailed Analysis Dashboard](link-to-lob-dashboard.jpg)
