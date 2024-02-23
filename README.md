@@ -21,7 +21,7 @@ The project involved multiple stages of data processing, visualization, and anal
 ## Results
 The dashboard effectively captures and presents broadband sales data, providing key insights for business decision-making. The addition of city-wise sales data allows for a more granular analysis of market penetration and campaign effectiveness.
 
-## Visualization and Code Snippets
+## Visualisation and Code Snippets
 - Tableau Dashboard Screenshot:
   - ![Tableau Dashboard for Broadband Sales](link-to-tableau-dashboard.jpg)
 - Alteryx Workflow Screenshot:
