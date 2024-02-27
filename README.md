@@ -1,25 +1,54 @@
-# B2B Monthly Performance Analysis
+# B2B Monthly Performance Dashboard
 
-## Overview
-This repository hosts the B2B Monthly Performance Analysis Dashboards, designed to monitor and analyze business-to-business (B2B) operations. The dashboards offer a high-level overview of broad metrics and a detailed breakdown by Line of Business (LOB), focusing on Monthly Recurring Charge (MRC) and gross values to provide stakeholders with a comprehensive understanding of the B2B segment's performance.
+## Introduction
 
-## Goal
-The dashboards aim to give a segmented view of the B2B area, highlighting trends and key performance indicators. This insight is crucial for stakeholders to identify growth opportunities, monitor business health, and make informed decisions.
+The B2B Monthly Performance Dashboard is designed to consolidate and streamline reporting across all functions and products in the B2B sector. This project aims to transition from Excel-based reporting to a more integrated, dynamic dashboard solution. The goal is to provide a one-stop reporting platform that caters to the diverse needs of various teams within the organisation.
 
-## Approach and Tools
-- **Data Aggregation and Processing**: 
-  - Execution of SQL queries for data extraction and aggregation from multiple business systems.
-  - Establishment of automated data pipelines for regular data updates and transformation.
+## Goals
 
-- **Dashboard Development**: 
-  - **Broad Metrics Dashboard**: Captures key performance indicators to provide a snapshot of overall business health.
-  - **Line of Business (LOB) Dashboard**: Offers an in-depth look at specific metrics such as MRC and gross values, allowing stakeholders to dive deeper into the data.
+The primary objective of this dashboard is to offer monthly insights into the performance of B2B functions and products. It encompasses two main dashboards:
+1. **High-Level Overview Dashboard:** Offers a broad perspective on performance metrics across different B2B functions and products.
+2. **Detailed Sales and MRC Breakdown Dashboard:** Provides granular insights into actual sales figures, MRC (Monthly Recurring Charge) breakdowns, and other detailed metrics.
 
-## Results
-The dual-layered dashboards have become an essential tool for B2B performance tracking, enabling stakeholders to quickly grasp the business trajectory and delve into detailed financial metrics for each LOB.
+Key goals include:
+- Enhance decision-making processes by providing comprehensive data insights.
+- Facilitate cross-functional team access to relevant, up-to-date information.
+- Reduce reliance on manual, Excel-based reporting methods.
 
-## Visualisation and Code Snippets
-- **Broad Metrics Dashboard Screenshot**:
-  - ![Broad Metrics Dashboard](link-to-broad-metrics-dashboard.jpg)
-- **Line of Business (LOB) Detailed Analysis Dashboard Screenshot**:
-  - ![LOB Detailed Analysis Dashboard](link-to-lob-dashboard.jpg)
+## Methodology
+
+The dashboard is built upon a complex SQL query that aggregates and transforms data from various sources within the organization's data warehouse. This query is specifically designed to capture the latest actions for all subscribers, their earliest acquisition metrics, and detailed breakdowns of sales and MRC figures.
+
+### Technical Overview
+
+- **Data Sources:** Consolidation of data from multiple B2B-related tables and views.
+- **SQL Query:** Utilises CTEs (Common Table Expressions) to structure the data preparation process, ensuring that the final view is optimised for dashboard consumption.
+- **Tools Used:** SQL for data querying and extraction; Tableau for dashboard creation and visualisation.
+
+## Dashboards Overview
+
+### High-Level Overview Dashboard
+- **Purpose:** To provide a snapshot of overall B2B performance across different functions and products.
+- **Features:** Interactive filters, KPI metrics, trend analysis graphs.
+
+### Detailed Sales and MRC Breakdown Dashboard
+- **Purpose:** To offer in-depth analysis of sales performance and Monthly Recurring Charges.
+- **Features:** Detailed breakdowns by product, sales figures, MRC analysis, and performance over time.
+
+## Usage
+
+Teams across the B2B segment are encouraged to utilize these dashboards for:
+- Monthly performance tracking.
+- Strategic planning and forecasting.
+- Identifying trends and opportunities for growth.
+- Cross-functional team meetings and reporting.
+
+## Additional Considerations
+
+- **Data Privacy and Compliance:** Ensure all data used complies with GDPR and other relevant data protection regulations.
+- **Regular Updates:** The dashboard will be updated regularly to reflect the latest data and insights.
+- **Data Integrity:** Continuous monitoring and validation of SQL queries and data sources to maintain accuracy and reliability.
+
+## Conclusion
+
+The B2B Monthly Performance Dashboard represents a significant step forward in our approach to data analytics and reporting. By providing a centralized, dynamic platform for performance analysis, we aim to empower teams with the insights needed to drive strategic decisions and achieve business objectives.
