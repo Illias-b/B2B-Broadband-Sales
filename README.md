@@ -31,9 +31,15 @@ The dashboard is built upon a complex SQL query that aggregates and transforms d
 - **Purpose:** To provide a snapshot of overall B2B performance across different functions and products.
 - **Features:** Interactive filters, KPI metrics, trend analysis graphs.
 
+- ![image](https://github.com/Illias-b/B2B-Broadband-Sales/assets/33836566/5570bb7a-b7c8-4a32-904f-e919f98e8ae1)
+
+
 ### Detailed Sales and MRC Breakdown Dashboard
 - **Purpose:** To offer in-depth analysis of sales performance and Monthly Recurring Charges.
 - **Features:** Detailed breakdowns by product, sales figures, MRC analysis, and performance over time.
+
+- ![image](https://github.com/Illias-b/B2B-Broadband-Sales/assets/33836566/a02edc7c-b177-439e-be15-fcb6e856bd00)
+
 
 ## Usage
 
